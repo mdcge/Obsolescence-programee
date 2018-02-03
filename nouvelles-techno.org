@@ -1,0 +1,130 @@
+# #+TITLE: SVOR Competition
+# #+AUTHOR: Max Generowicz
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_ROOT: file:///home/max/src/reveal.js
+#+OPTIONS: reveal_title_slide:"<h2>%t</h2><h5>%a</h5>"
+#+OPTIONS: reveal_slide_number:nil toc:nil num:nil
+#+REVEAL_TRANS: slide
+#+REVEAL_MARGIN: 0.08
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+#+MACRO: size @@html:<font size="$1">$2</font>@@
+#+MACRO: cs @@html:<font size="$1", color="$2">$3</font>@@
+#+position: absolute
+#+HTML_HEAD: <style>
+#+HTML_HEAD: .reveal blockquote {margin-left: -15%; width: 130%}
+#+HTML_HEAD: .reveal h1 {text-transform:none;}
+#+HTML_HEAD: .reveal h2 {text-transform:none;}
+#+HTML_HEAD: .reveal h3 {text-transform:none;}
+#+HTML_HEAD: .reveal h4 {text-transform:none;}
+#+HTML_HEAD: .reveal h5 {text-transform:none;}
+#+HTML_HEAD: </style>
+* Définition et ancrage
+** Obsolescence programée (OP)
+Réduire exprès la durée de vie d'un appareil afin d'en vendre plus.
+** Ancrage
+#+ATTR_REVEAL: :frag (appear)
++ {{{color(red, moins durée de vie)}}} = {{{color(blue, achats plus fréquents)}}}
++ {{{color(blue, achats plus fréquents)}}} = {{{color(green, rejets plus fréquents)}}}
++ {{{color(green, rejets plus fréquents)}}} = pollution
++ premier cas remonte à 1923
+* Acteurs, enjeux et stratégies
+** Acteurs
+#+ATTR_REVEAL: :frag (appear)
++ Entreprises productrices
+  + {{{size(6px, «suivre le rythme»)}}}
++ Consommateurs
+  + {{{size(6px, choix de consommation)}}}
++ État
+  + {{{size(6px, lois sur OP)}}}
+** Enjeux
+#+ATTR_REVEAL: :frag (appear)
++ Économiques
+  + {{{size(6px, plus d'achats)}}}
+  + {{{size(6px, possible hyperconsommation)}}}
++ Écologiques
+  + {{{size(6px, appareil marche plus : jeté!)}}}
+  + {{{size(6px, 50'000'000 tonnes de déchets par année)}}}
+** Stratégies
+#+ATTR_REVEAL: :frag (appear)
++ Lois
+  + {{{size(6px, limiter/arrêter OP)}}}
++ ONG
+  + {{{cs(6px, green, promotion (marques sans OP))}}}
+  + {{{cs(6px, red, prévention (marques avec OP))}}}
+* Caricature
+** 
+#+ATTR_HTML: :width 65% :height 65%
+[[file:~/op.gif]]
+* Impact économique
+** Premier cas
+#+ATTR_REVEAL: :frag (appear)
++ 1923: General Motors
+  + {{{size(6px, modifier régulièrement voitures)}}}
+  + {{{size(6px, changer carrosserie)}}}
+  + {{{size(6px, changer couleurs)}}}
+  + {{{size(6px, même intérieur)}}}
++ Ford obligé de faire de même
+** Utilités
+#+ATTR_REVEAL: :frag (appear)
++ 1929: Grande Dépression
++ 1932: solution = obsolescence programmée!
+* Législation
+** Loi de mars 2014
+#+ATTR_REVEAL: :frag (appear)
++ Obligation de montrer durée de vie de pièces individuelles
+  + {{{size(6px, producteurs prévoient remplacement)}}}
+  + {{{size(6px, producteurs augmentent durée de vie de produits)}}}
+  + {{{size(6px, réparation + facile = - de rejets)}}}
++ Obligation d'informer que la durée légale de garantie est rallongée
+  + {{{size(6px, + de gens informés = + de boycott)}}}
+** Loi d'août 2015
+#+BEGIN_QUOTE
+«II. – L’obsolescence programmée est punie d’une peine de deux ans
+d’emprisonnement et de 300'000 € d’amende.»
+#+END_QUOTE
+#+ATTR_REVEAL: :frag (appear)
++ OP interdite en France
+* Exemple
+** Apple
+#+ATTR_REVEAL: :frag (appear)
++ Reconnaît avoir ralenti téléphones
+  + {{{size(6px, Excuse: batterie devient plus faible au cours du temps)}}}
++ HOP affirme qu'excuse pas valable
++ Apple pourrait être amendé 5% de leur revenu annuel
++ Possibilité de prison pour certains représentants
+* Impact écologique
+** Déchets
+#+ATTR_REVEAL: :frag (appear)
++ 50'000'000 tonnes de déchets par année
++ Déchets vont dans décharges dans pays pauvres
+  + {{{size(6px, surtout Ghana)}}}
+  + {{{size(6px, quartier d'Agbogbloshie (ville d'Accra))}}}
+** Effets sur les humains
+#+ATTR_REVEAL: :frag (appear)
++ Déchets triés par humains sans protection
++ Certains composants d'appareils éléctroniques sont toxiques
++ Matériaux traités dans immenses feux à l'air libre
+  + {{{size(6px, dégagent fumées toxiques)}}}
++ 80% des enfants habitant Agbogbloshie ont saturnisme
+** Effets sur l'environnement
+#+ATTR_REVEAL: :frag (appear)
++ Feux utilisés pour traiter polluent beaucoup
++ Téléphones contiennent plomb, cadmium, mercure
+  + {{{size(6px, très mauvais pour l'environnement)}}}
++ Chaque tonne de cuivre nécessite 400'000 litres d'eau pour être traitée
++ Traite du cuivre libère éléments toxiques
+* Arrêter l'OP
+** Solutions possibles
+#+ATTR_REVEAL: :frag (appear)
++ Légiférer
+  + {{{size(6px, comme la France)}}}
++ Consommer de manière responsable
+  + {{{size(6px, Boycotter marques qui utilisent OP)}}}
+  + {{{size(6px, Promouvoir marques qui ne l'utilisent pas)}}}
++ Dénoncer entreprises
+  + {{{size(6px, comme HOP avec Apple)}}}
++ Réparer appareils défectueux
+  + {{{size(6px, au lieu de les jeter)}}}
++ Faciliter l'accès à la réparation
+  + {{{size(6px, cela inciterait plus les gens à réparer plutôt que jeter)}}}
+
